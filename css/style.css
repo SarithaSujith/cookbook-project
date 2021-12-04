@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300&family=Work+Sans:ital,wght@0,300;0,400;0,600;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Handlee&display=swap");
+
+* {
+  font-family: "Work Sans", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.main_heading {
+  margin: 1em auto;
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+}
+.img_main {
+  height: 100%;
+  width: 100%;
+  display: relative;
+}
+
+.menu_main {
+  display: flex;
+  padding: 0.5em;
+  justify-content: center;
+  list-style: none;
+  /* align-content: center; */
+}
+
+.container_main {
+  display: absolute;
+  background-color: #ffffff;
+  padding: 0 0 1em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 1.5em;
+}
+
+.anchor_main {
+  display: block;
+  padding: 0.3em;
+  color: black;
+  text-decoration: none;
+  font-size: 1.5em;
+  font-weight: 400;
+}
+
+.footer_main {
+  display: flex;
+  /* justify-content: space-between; */
+  /* grid-template-columns: repeat(1,1fr); */
+  /* border: 1px solid black; */
+  align-items: center;
+  background-color:  #464646;
+}
+
+.footer_main h3 {
+  /* flex-grow: 1; */
+  display: inline;
+  padding-left: 1em;
+ color: whitesmoke;
+  /* float: left; */
+  /* padding-top: 4em; */
+  /* justify-content: space-between; */
+}
+
+.footer-nav li {
+  display: inline;
+
+}
+.footer-nav img {
+  width: 40px;
+  height: 40px;
+  margin: 0.5em;
+}
+.footer-nav a:hover{
+  background-color: whitesmoke;
+  padding: .7em;
+}
+
+#pizza, #pasta, #tiramisu {
+  text-align: center;
+  /* margin: 0; */
+  font-size: 2em;
+  font-weight: bold;
+  letter-spacing: 0.5em;
+  /* border-bottom: 1px solid black; */
+  background-color: #eab877b7;
+  padding: 1.2em;
+}
+
+#heading-1 {
+  text-align: center;
+  margin: 2em;
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+#heading-2 {
+  text-align: center;
+  margin: 2em;
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+.pizza-base{
+  display: flex;
+  align-items: center;
+  background-color: #b89b83;
+}
+
+.pizza-sauce,.pasta-sauce, .tiramisu-main {
+  display: flex;
+  align-items: center;
+}
+
+.pizza_img, .pasta_img, .tiramisu_img {
+  width: 40%;
+  display: inline-block;
+  margin: 2em;
+}
+
+.pizza-base,
+.pizza-sauce {
+  text-align: center;
+}
+
+.main-list {
+  width: 75%;
+  margin: 5em auto;
+  line-height: 1.8em;
+}
+
+.home-btn {
+  position: relative;
+}
+
+.home-btn a {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  background-color: #666666af;
+  padding: 0.4em 1.5em;
+  border-radius: 30px;
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  text-decoration: none;
+  font-family: "Handlee", cursive;
+}
+
+.home-btn a:hover {
+  position: absolute;
+  transform: translate(-50% -50%);
+  top: 50%;
+  left: 50%;
+  background-color: #ffffff;
+  padding: 0.8em 1.5em;
+  border-radius: 30px;
+  color: #000000;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.home-btn img {
+  width: 100%;
+}
+
+ol {
+  font-weight: bolder;
+}
+
+ol li span {
+  font-weight: normal;
+}
