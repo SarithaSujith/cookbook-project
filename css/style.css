@@ -11,10 +11,13 @@ body {
 }
 
 .main_heading {
-  margin: 1em auto;
+  /* margin: 1em auto; */
+  /* padding: 2em auto; */
   text-align: center;
   font-size: 2em;
   font-weight: bold;
+  background-color: #fff3dc;
+  line-height: 4em;
 }
 .img_main {
   height: 100%;
@@ -25,7 +28,7 @@ body {
 .menu_main {
   display: flex;
   padding: 0.5em;
-  justify-content: center;
+  justify-content: space-around;
   list-style: none;
   /* align-content: center; */
 }
@@ -35,7 +38,8 @@ body {
   background-color: #ffffff;
   padding: 0 0 1em;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin: 1.5em;
+  /* margin: 1.5em; */
+  max-width: 29%;
 }
 
 .anchor_main {
@@ -47,20 +51,40 @@ body {
   font-weight: 400;
 }
 
-.footer_main {
+.footer_main{
   display: flex;
-  /* justify-content: space-between; */
-  /* grid-template-columns: repeat(1,1fr); */
-  /* border: 1px solid black; */
   align-items: center;
-  background-color:  #464646;
+  background-color:#fff3dc ;
 }
+  
+.social-icons-facebook {
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-image: url("/images/facebook-bw.png");
+  margin-left: 15px;
+}
+.social-icons-facebook:hover {
+  background: url("/images/facebook.png");
+}
+.social-icons-instagram {
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-image: url("/images/instagram-bw.png");
+  margin-left: 15px;
+}
+.social-icons-instagram:hover {
+  background: url("/images/instagram.png");
+}
+
+
 
 .footer_main h3 {
   /* flex-grow: 1; */
   display: inline;
   padding-left: 1em;
- color: whitesmoke;
+ color: black;
   /* float: left; */
   /* padding-top: 4em; */
   /* justify-content: space-between; */
@@ -70,15 +94,8 @@ body {
   display: inline;
 
 }
-.footer-nav img {
-  width: 40px;
-  height: 40px;
-  margin: 0.5em;
-}
-.footer-nav a:hover{
-  background-color: whitesmoke;
-  padding: .7em;
-}
+
+
 
 #pizza, #pasta, #tiramisu {
   text-align: center;
@@ -93,22 +110,24 @@ body {
 
 #heading-1 {
   text-align: center;
-  margin: 2em;
+  padding: 1em;
   font-size: 1.5em;
   font-weight: 600;
+  background-color: #fff3dc;
 }
 
 #heading-2 {
   text-align: center;
-  margin: 2em;
+  padding: 1em;
   font-size: 1.5em;
   font-weight: 600;
+  background-color: #fff3dc;
 }
 
 .pizza-base{
   display: flex;
   align-items: center;
-  background-color: #b89b83;
+
 }
 
 .pizza-sauce,.pasta-sauce, .tiramisu-main {
@@ -146,7 +165,7 @@ body {
   padding: 0.4em 1.5em;
   border-radius: 30px;
   color: white;
-  font-size: 2rem;
+  font-size: 4vw;
   font-weight: bold;
   text-decoration: none;
   font-family: "Handlee", cursive;
@@ -161,7 +180,7 @@ body {
   padding: 0.8em 1.5em;
   border-radius: 30px;
   color: #000000;
-  font-size: 1.5rem;
+  font-size: 4vw;
   text-decoration: none;
 }
 
