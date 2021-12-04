@@ -51,50 +51,6 @@ body {
   font-weight: 400;
 }
 
-.footer_main{
-  display: flex;
-  align-items: center;
-  background-color:#fff3dc ;
-}
-  
-.social-icons-facebook {
-  display: block;
-  width: 40px;
-  height: 40px;
-  background-image: url("/images/facebook-bw.png");
-  margin-left: 15px;
-}
-.social-icons-facebook:hover {
-  background: url("/images/facebook.png");
-}
-.social-icons-instagram {
-  display: block;
-  width: 40px;
-  height: 40px;
-  background-image: url("/images/instagram-bw.png");
-  margin-left: 15px;
-}
-.social-icons-instagram:hover {
-  background: url("/images/instagram.png");
-}
-
-
-
-.footer_main h3 {
-  /* flex-grow: 1; */
-  display: inline;
-  padding-left: 1em;
- color: black;
-  /* float: left; */
-  /* padding-top: 4em; */
-  /* justify-content: space-between; */
-}
-
-.footer-nav li {
-  display: inline;
-
-}
-
 
 
 #pizza, #pasta, #tiramisu {
@@ -194,4 +150,47 @@ ol {
 
 ol li span {
   font-weight: normal;
+}
+.footer_main{
+  display: flex;
+  align-items: center;
+  background-color:#fff3dc ;
+}
+  
+.social-icons-facebook {
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-image: url("/images/facebook-bw.png");
+  margin-left: 15px;
+}
+.social-icons-facebook:hover {
+  background: url("/images/facebook.png");
+}
+.social-icons-instagram {
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-image: url("/images/instagram-bw.png");
+  margin-left: 15px;
+}
+.social-icons-instagram:hover {
+  background: url("/images/instagram.png");
+}
+
+
+
+.footer_main h3 {
+  /* flex-grow: 1; */
+  display: inline;
+  padding-left: 1em;
+ color: black;
+  /* float: left; */
+  /* padding-top: 4em; */
+  /* justify-content: space-between; */
+}
+
+.footer-nav li {
+  display: inline;
+
 }
